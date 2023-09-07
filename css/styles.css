@@ -1,0 +1,328 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: var(--background-color);
+}
+
+:root {
+  --background-color: #ffffff;
+  --main-page-color: #2e2f42;
+  --normal-color: #4d5ae5;
+  --active-color: #404bbf;
+  --contact-link-color: #434455;
+  --footer-text-color: #f4f4fd;
+  --button-bg-color: #f4f4fd;
+  --paragraph-color: #434455;
+}
+
+h1 h2 h3 h4 h5 h6 p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.section {
+  /*padding: 120px 0;*/
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page-header .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  align-items: center;
+}
+
+.logo-web {
+  color: var(--normal-color);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  /*display: flex;*/
+  /*margin-right: 76px;*/
+}
+.logo-studio {
+  color: var(--main-page-color);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  /*display: flex;*/
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  /*margin-right: 332px;*/
+}
+
+.nav-item {
+  color: var(--main-page-color);
+  background-color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.nav-item:active {
+  color: var(--active-color);
+}
+.nav-item:hover {
+  color: #404bbf;
+}
+.nav-item:focus {
+  color: #404bbf;
+}
+.address-list {
+  /*font-style: normal;*/
+  display: flex;
+  gap: 40px;
+  /*align-items: center;*/
+}
+.contact-link {
+  color: var(--contact-link-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contact-link:link {
+  text-decoration: none;
+}
+.contact-link:hover {
+  color: var(--active-color);
+}
+.contact-link:focus {
+  color: var(--active-color);
+}
+.contact-link:active {
+  color: var(--active-color);
+}
+.section-hero {
+  width: 100%;
+  padding: 188px 0;
+  background-color: var(--main-page-color);
+}
+.hero-header {
+  display: flex;
+  max-width: 496px;
+  /*flex-direction: column;*/
+  /*flex-shrink: 0;*/
+  margin: 0 auto;
+  color: #ffffff;
+
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  cursor: pointer;
+  border: none;
+  min-width: 169px;
+
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 48px;
+}
+.hero-button {
+  display: block;
+  min-width: 169px;
+  padding: 16px 32px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 48px;
+  border: none;
+  border-radius: 4px;
+  background: var(--normal-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+  color: #ffffff;
+  background-color: var(--normal-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.hero-button:hover {
+  color: #ffffff;
+  background-color: var(--active-color);
+}
+.hero-button:focus {
+  background-color: var(--active-color);
+}
+
+.section-about {
+  padding: 120px 0;
+}
+
+.about-list {
+  display: flex;
+  gap: 24px;
+}
+
+.feature-name {
+  color: var(--main-page-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.feature-item {
+  color: var(--contact-link-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.section-header {
+  color: var(--main-page-color);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.section-portfolio {
+  padding-bottom: 120px;
+}
+
+.section-team {
+  background-color: var(--footer-text-color);
+  padding: 120px 0;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-list-item {
+  background-color: #ffffff;
+}
+.team-member {
+  color: var(--main-page-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-member-speciality {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer-section {
+  background-color: var(--main-page-color);
+}
+.footer-logo-studio {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.footer-text {
+  color: var(--footer-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.filter-button {
+  color: var(--normal-color);
+  background-color: var(--button-bg-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: 1px solid #e7e9fc;
+  cursor: pointer;
+}
+.filter-button:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.filter-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.activities-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.activity-name {
+  color: var(--main-page-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.activity-description {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
