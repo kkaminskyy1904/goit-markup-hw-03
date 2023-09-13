@@ -6,8 +6,8 @@ body {
 
 :root {
   --background-color: #ffffff;
-  --main-page-color: #2e2f42;
-  --normal-color: #4d5ae5;
+  --main-color: #2e2f42;
+  --regular-color: #4d5ae5;
   --active-color: #404bbf;
   --contact-link-color: #434455;
   --footer-text-color: #f4f4fd;
@@ -75,7 +75,7 @@ img {
 }
 
 .logo-web {
-  color: var(--normal-color);
+  color: var(--regular-color);
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -87,7 +87,7 @@ img {
   /*margin-right: 76px;*/
 }
 .logo-studio {
-  color: var(--main-page-color);
+  color: var(--main-color);
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -106,7 +106,7 @@ img {
 }
 
 .nav-item {
-  color: var(--main-page-color);
+  color: var(--main-color);
   background-color: #ffffff;
   font-style: normal;
   font-weight: 500;
@@ -154,11 +154,11 @@ img {
 .section-hero {
   width: 100%;
   padding: 188px 0;
-  background-color: var(--main-page-color);
+  background-color: var(--main-color);
 }
 .hero-header {
   display: flex;
-  max-width: 496px;
+  width: 496px;
   /*flex-direction: column;*/
   /*flex-shrink: 0;*/
   margin: 0 auto;
@@ -187,11 +187,11 @@ img {
   margin-top: 48px;
   border: none;
   border-radius: 4px;
-  background: var(--normal-color);
+  background: var(--regular-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
   color: #ffffff;
-  background-color: var(--normal-color);
+  background-color: var(--regular-color);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -216,7 +216,7 @@ img {
 }
 
 .feature-name {
-  color: var(--main-page-color);
+  color: var(--main-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -229,12 +229,14 @@ img {
   letter-spacing: 0.02em;
 }
 .section-header {
-  color: var(--main-page-color);
+  color: var(--main-color);
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+
+  margin: 0 auto;
 }
 
 .section-portfolio {
@@ -255,7 +257,7 @@ img {
   background-color: #ffffff;
 }
 .team-member {
-  color: var(--main-page-color);
+  color: var(--main-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -266,8 +268,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.footer-section {
-  background-color: var(--main-page-color);
+.section-footer {
+  background-color: var(--main-color);
+  padding: 100px 0;
 }
 .footer-logo-studio {
   color: #f4f4fd;
@@ -281,6 +284,7 @@ img {
   letter-spacing: 0.03em;
 }
 .footer-text {
+  width: 264px;
   color: var(--footer-text-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -314,7 +318,7 @@ img {
 }
 
 .activity-name {
-  color: var(--main-page-color);
+  color: var(--main-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
