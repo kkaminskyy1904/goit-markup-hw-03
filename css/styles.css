@@ -68,10 +68,9 @@ img {
 
 .page-header .container {
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   padding-top: 24px;
   padding-bottom: 24px;
-  align-items: center;
 }
 
 .logo-web {
@@ -102,7 +101,7 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
-  /*margin-right: 332px;*/
+  margin-left: 76px;
 }
 
 .nav-item {
@@ -129,6 +128,7 @@ img {
   display: flex;
   gap: 40px;
   /*align-items: center;*/
+  margin-left: 332px;
 }
 .contact-link {
   color: var(--contact-link-color);
