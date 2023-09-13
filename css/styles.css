@@ -75,6 +75,9 @@ img {
   /*justify-content: space-between;*/
   /*padding-top: 24px;
   padding-bottom: 24px;*/
+}
+
+.section-page-header {
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -140,6 +143,7 @@ img {
   gap: 40px;
   /*align-items: center;*/
   margin-left: 332px;
+  padding: 24px 0;
 }
 .contact-link {
   color: var(--contact-link-color);
@@ -231,6 +235,15 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.feature-item {
+  color: var(--contact-link-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .feature-name {
   color: var(--main-color);
   font-weight: 500;
@@ -240,14 +253,7 @@ img {
   margin-top: 0;
   margin-bottom: 8px;
 }
-.feature-item {
-  color: var(--contact-link-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-top: 0;
-  margin-bottom: 0;
-}
+
 .section-header {
   color: var(--main-color);
   font-size: 36px;
@@ -265,8 +271,8 @@ img {
 }
 
 .activity-item {
-  border-top: none;
   border: 1px solid #e7e9fc;
+  border-top: none;
   padding: 32px 16px;
 }
 
@@ -281,7 +287,7 @@ img {
 
 .section-team {
   background-color: var(--footer-text-color);
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .team-list {
@@ -306,6 +312,8 @@ img {
 
 .team-member-info {
   padding: 32px 0;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-member-name {
@@ -321,6 +329,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin: 0;
+  text-align: center;
 }
 .section-footer {
   background-color: var(--main-color);
